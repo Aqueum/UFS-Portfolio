@@ -86,7 +86,6 @@ article {
 
 .swatchtxt {
     font-size: 1.5em;
-    text-align: right;
 }
 
 .corporate {
@@ -113,6 +112,13 @@ article {
     }
 }
 
+@media (max-width: 599px) {
+    aside {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 @media (min-width: 600px) {
     .wrapper {
         margin-top: 4%;
@@ -133,6 +139,10 @@ article {
         padding-right: 4em;
         order: 1;
     }
+
+    .swatchtxt {
+    text-align: right;
+}
 }
 
 @media (min-width: 940px) {
