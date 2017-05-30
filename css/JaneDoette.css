@@ -68,6 +68,10 @@ hr {
     width: 100%;
 }
 
+.articles {
+    display: flex;
+}
+
 .thumbnail {
 
 }
