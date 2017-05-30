@@ -69,8 +69,10 @@ hr {
     width: 100%;
 }
 
-.articles {
-    display: flex;
+@media (min-width: 600px) {
+    .articles {
+        display: flex;
+    }
 }
 
 .thumbnail {
