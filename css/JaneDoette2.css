@@ -14,7 +14,22 @@ nav a, button {
     --default: #2d3c49;
     --highlight: #7d97ad;
     --corporate: #02b3e4;
+}
 
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: var(--highlight);
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h4 {
+    text-transform: uppercase;
 }
 
 .logo {
