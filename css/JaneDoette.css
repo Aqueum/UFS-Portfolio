@@ -13,8 +13,6 @@ nav a, button {
     --logo: #02b3e4;
     color: var(--default);
     font-family: "Open Sans";
-
-
 }
 
 .udacityblue {
@@ -73,7 +71,10 @@ h4 {
 }
 
 hr {
-    color: var(--highlight)
+    border: none;
+    background-color: var(--highlight);
+    height: 0.25em;
+    margin-bottom: 2em;
 }
 
 .banner {
