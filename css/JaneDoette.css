@@ -12,17 +12,20 @@ nav a, button {
     --highlight: #7d97ad;
     --logo: #02b3e4;
     color: var(--default);
-    font-family: "Open Sans";
-}
-
-.udacityblue {
-    color: #02b3e4;
+    font-family: "Open Sans", sans-serif;
 }
 
 @media (min-width: 800px) {
     .wrapper {
         display: flex;
         padding: 7%;
+    }
+    aside {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .swatchtxt {
+        text-align: right;
     }
 }
 
@@ -98,6 +101,9 @@ hr {
 aside {
     flex: 1;
     order: 1;
+    display: flex;
+    margin-right: 5%;
+    margin-top: 10%;
 }
 
 .swatch {
@@ -105,12 +111,20 @@ aside {
 }
 
 .square {
-    max-width: 100px;
-    max-height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
-p {
+.default {
+    background-color: var(--default);
+}
 
+.highlight {
+    background-color: var(--highlight);
+}
+
+.logocol {
+    background-color: var(--logo);
 }
 
 footer {
