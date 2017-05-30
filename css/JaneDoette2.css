@@ -17,19 +17,34 @@ nav a, button {
 }
 
 h1 {
+    font-size: 3em;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h2 {
+    font-size: 2.25em;
     color: var(--highlight);
+    margin-bottom: 0.25em;
 }
 
 h3 {
+    font-size: 1.9em;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h4 {
+    font-size: 1.25em;
     text-transform: uppercase;
+    margin: 0;
+}
+
+a {
+    color: var(--default);
+}
+.worklink {
+    font-size: 0.65em;
 }
 
 .logo {
@@ -77,6 +92,9 @@ article {
 }
 
 @media (min-width: 600px) {
+    .wrapper {
+        margin: 10%
+    }
     .full-width {
         display: flex;
     }
@@ -88,7 +106,7 @@ article {
 
     .sidebar {
         width: 100px;
-        padding-right: 20px;
+        padding-right: 4em;
         order: 1;
     }
 }
@@ -100,6 +118,7 @@ article {
     .thumbnail {
         flex: 1;
     }
+    /* TODO - find a way to get URLs to scale down */
     .worklink {
         white-space: nowrap;
         overflow: hidden;
