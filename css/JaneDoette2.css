@@ -124,6 +124,7 @@ article {
         margin-top: 4%;
         margin-left: 10%;
         margin-right: 10%;
+        max-width: 1400px;
     }
     .full-width {
         display: flex;
