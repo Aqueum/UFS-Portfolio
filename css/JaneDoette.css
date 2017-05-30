@@ -20,11 +20,11 @@ nav a, button {
 }
 
 main {
-
+    width: 80%;
 }
 
 header {
-
+    width: 100%;
 }
 
 .logo {
@@ -52,7 +52,7 @@ hr {
 }
 
 .banner {
-
+    width: 100%;
 }
 
 .thumbnail {
@@ -63,8 +63,8 @@ hr {
 
 }
 
-.sidebar {
-
+aside {
+    width: 20%;
 }
 
 .swatch {
