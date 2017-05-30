@@ -38,15 +38,14 @@ h4 {
 }
 
 .nameplate {
+    flex: 1;
     text-align: right;
 }
 
-
-
-
-
-
-
+article {
+    text-align: center;
+    padding-bottom: 3em;
+}
 
 .square {
     width: 100px;
@@ -70,3 +69,41 @@ h4 {
     content: var(--corporate);
 }
 */
+
+@media (min-width: 340px) {
+    .header-content {
+        display: flex;
+    }
+}
+
+@media (min-width: 600px) {
+    .full-width {
+        display: flex;
+    }
+
+    .bulk {
+        flex: 1;
+        order: 2;
+    }
+
+    .sidebar {
+        width: 100px;
+        padding-right: 20px;
+        order: 1;
+    }
+}
+
+@media (min-width: 860px) {
+    .articles {
+        display: flex;
+    }
+    .thumbnail {
+        flex: 1;
+    }
+    .worklink {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-width: 10px;
+    }
+}
