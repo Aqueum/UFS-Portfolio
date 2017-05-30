@@ -28,7 +28,9 @@ header {
 }
 
 .logo {
-
+    /* set maximum size for logo to approximate the pdf at "actual size", let it scale smaller if required */
+    max-width: 110px;
+    max-height: 110px;
 }
 
 h1 {
