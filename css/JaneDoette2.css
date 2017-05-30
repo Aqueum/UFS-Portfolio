@@ -112,7 +112,7 @@ article {
     }
 }
 
-@media (max-width: 599px) {
+@media (min-width: 340px) AND (max-width: 599px) {
     aside {
         display: flex;
         justify-content: space-between;
