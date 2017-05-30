@@ -19,8 +19,16 @@ nav a, button {
     color: #02b3e4;
 }
 
+@media (min-width: 800px) {
+    .wrapper {
+        display: flex;
+    }
+}
+
 main {
-    width: 80%;
+    flex: 4;
+    order: 2;
+
 }
 
 header {
@@ -66,7 +74,8 @@ hr {
 }
 
 aside {
-    width: 20%;
+    flex: 1;
+    order: 1;
 }
 
 .swatch {
