@@ -115,7 +115,9 @@ article {
 
 @media (min-width: 600px) {
     .wrapper {
-        margin: 10%
+        margin-top: 4%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .full-width {
         display: flex;
