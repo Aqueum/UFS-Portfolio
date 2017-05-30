@@ -136,9 +136,10 @@ article {
 @media (min-width: 940px) {
     .articles {
         display: flex;
+        justify-content: space-between;
     }
-    .thumbnail {
-        flex: 1;
+    article {
+        width: 31.5%;
     }
     /* TODO - find a way to get URLs to scale down */
     .worklink {
