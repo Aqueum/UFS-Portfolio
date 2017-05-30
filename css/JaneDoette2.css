@@ -57,6 +57,13 @@ a {
     text-align: right;
 }
 
+hr {
+    border: none;
+    background-color: var(--highlight);
+    height: 0.25em;
+    margin-bottom: 2em;
+}
+
 article {
     text-align: center;
     padding-bottom: 3em;
