@@ -90,6 +90,10 @@ hr {
     }
 }
 
+.article {
+    flex-basis: 30%;
+}
+
 .thumbnail {
 
 }
