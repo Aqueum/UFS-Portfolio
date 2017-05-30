@@ -8,6 +8,7 @@ nav a, button {
 }
 
 * {
+    font-family: "Open Sans";
     color: #2d3c49;
 }
 
@@ -42,7 +43,8 @@ header {
 }
 
 h1 {
-
+    text-align: right;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -50,11 +52,12 @@ h2 {
 }
 
 h3 {
-
+    text-transform: uppercase;
 }
 
 h4 {
-
+    text-align: right;
+    text-transform: uppercase;
 }
 
 hr {
@@ -83,7 +86,8 @@ aside {
 }
 
 .square {
-
+    max-width: 100px;
+    max-height: 100px;
 }
 
 p {
