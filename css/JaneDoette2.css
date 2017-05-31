@@ -1,5 +1,5 @@
 /* TODO: find correct font - see README */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 
 img, embed, object, video {
     max-width: 100%;
@@ -10,6 +10,8 @@ nav a, button {
     min-height: 48px;
 }
 
+
+/* Text */
 * {
     font: 100%/1.2 "Open Sans", sans-serif;
     --default: #2d3c49;
@@ -47,11 +49,8 @@ a {
     color: var(--default);
 }
 
-.work-link {
-    /* small size required to avoid image formatting issues - see README */
-    font-size: 0.65em;
-}
 
+/* Header */
 .logo {
     /* set max dimensions so logo can shrink for tiny viewports */
     max-width: 100px;
@@ -72,10 +71,14 @@ hr {
     min-width: 190px;
 }
 
+
+/* Main */
 .banner {
     min-width: 190px;
 }
 
+
+/* Articles */
 article {
     text-align: center;
     padding-bottom: 3em;
@@ -86,6 +89,13 @@ article {
     min-width: 190px;
 }
 
+.work-link {
+    /* small size required to avoid image formatting issues - see README */
+    font-size: 0.65em;
+}
+
+
+/* Sidebar */
 .square {
     width: 100px;
     height: 100px;
@@ -109,6 +119,9 @@ article {
 
 /* TODO: find a way to pass variables into ::after - see README */
 
+
+/* Breakpoints */
+/* Small viewports */
 @media (min-width: 340px) {
     .header-content {
         display: flex;
@@ -122,6 +135,7 @@ article {
     }
 }
 
+/* Medium viewports */
 @media (min-width: 600px) {
     .wrapper {
         margin: 4% 10% 4%;
@@ -149,6 +163,7 @@ article {
     }
 }
 
+/* Large viewports */
 @media (min-width: 940px) {
     .articles {
         display: flex;
