@@ -59,7 +59,12 @@ therefor the text describing the swatch colours should also come from the CSS
 variable, however, while I can pass text using ::after, I can't seem to find a
 way to pass variables:
 `.corporate::after {content: var(--corporate);}` 
-doesn't work
+doesn't work.
+
+I am concerned that CSS variables is still an 'experimental technology' so 
+wouldn't use it in a production site, but assume that Udacity reviewers will 
+have up to date browsers...  Is there a more stable means of passing variables
+ in CSS, or a way to prefix this.
 
 # Files
 ## JaneDoette2.html
@@ -96,4 +101,3 @@ Can Udacity add a badge here..?
 
 # License
 See [LICENSE](https://github.com/Aqueum/UFS-Portfolio/blob/master/LICENSE)
-
