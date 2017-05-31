@@ -8,7 +8,20 @@ https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 1. Ensure all the files listed under 'Files' below are in the same folder
 (click clone or download in [this](https://github.com/Aqueum/UFS-Portfolio) 
 & follow instructions)
-2. Open JaneDoette2.html in your browser
+2. Open JaneDoette2.html in a browser as least as new as:
+- Chrome 49.0
+- Edge (Internet Explorer NOT supported)
+- Firefox 31
+- Opera 36.0
+- Safari (WebKit) 9.1
+- Android Webview 49.0 (Android NOT supported)
+- Firefox Mobile (Gecko) 29
+- Safari Mobile 9.1
+- Chrome for Android 49.0
+
+Limited compatibility is due to use of [CSS variables](
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) - see 
+ passing variables, below.
 
 # How to create your own portfolio
 Edit the JaneDoette2.html file's h1, h3, h4, a & p tags
