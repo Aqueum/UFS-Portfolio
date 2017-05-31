@@ -47,7 +47,7 @@ a {
     color: var(--default);
 }
 
-.worklink {
+.work-link {
     /* small size required to avoid image formatting issues - see README */
     font-size: 0.65em;
 }
@@ -91,7 +91,7 @@ article {
     height: 100px;
 }
 
-.swatchtxt {
+.swatch-text {
     font-size: 1.5em;
 }
 
@@ -144,7 +144,7 @@ article {
         order: 1;
     }
 
-    .swatchtxt {
+    .swatch-text {
     text-align: right;
     }
 }
@@ -162,7 +162,7 @@ article {
 
     /* TODO: find a way to get URLs to scale down - see README */
     /* the following doesn't seem to work... */
-    .worklink {
+    .work-link {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
