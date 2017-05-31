@@ -127,6 +127,7 @@ article {
         margin-right: 10%;
         max-width: 1400px;
     }
+
     .full-width {
         display: flex;
     }
@@ -144,7 +145,7 @@ article {
 
     .swatchtxt {
     text-align: right;
-}
+    }
 }
 
 @media (min-width: 940px) {
@@ -152,9 +153,11 @@ article {
         display: flex;
         justify-content: space-between;
     }
+
     article {
         width: 31.5%;
     }
+
     /* TODO - find a way to get URLs to scale down */
     .worklink {
         white-space: nowrap;
