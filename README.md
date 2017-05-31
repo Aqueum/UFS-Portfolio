@@ -103,4 +103,5 @@ coursework.
 Can Udacity add a badge here..?
 
 # License
+GNU General Public License v3.0
 See [LICENSE](https://github.com/Aqueum/UFS-Portfolio/blob/master/LICENSE)
