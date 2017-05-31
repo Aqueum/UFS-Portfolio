@@ -1,3 +1,4 @@
+/* TODO - find correct font - see README */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 img, embed, object, video {
@@ -33,6 +34,7 @@ h3 {
     font-size: 1.9em;
     text-transform: uppercase;
     margin: 0;
+    text-decoration: none;
 }
 
 h4 {
@@ -44,7 +46,9 @@ h4 {
 a {
     color: var(--default);
 }
+
 .worklink {
+    /* small size required to avoid image formatting issues - see README */
     font-size: 0.65em;
 }
 
@@ -100,11 +104,7 @@ article {
     background-color: var(--highlight);
 }
 
-/* TODO - find a way to pass variables into ::after like:
-.corporate::after {
-    content: var(--corporate);
-}
-*/
+/* TODO - find a way to pass variables into ::after - see README */
 
 @media (min-width: 340px) {
     .header-content {
