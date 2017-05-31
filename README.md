@@ -53,18 +53,23 @@ underlining of the headings which `h3 {text-decoration: none;}` would not
 resolve.)
 
 ## Passing Variables
-I don't like defining the same variable at multiple points in a document and 
-feel that as a style element, the swatch colours should be defined in CSS, 
+I don't like defining the same variable at multiple points in a document 
+so I tried using CSS variables, but got rid of them at the request of the 
+CSS Style checker.
+
+I feel that as a style element, the swatch colours should be defined in CSS, 
 therefor the text describing the swatch colours should also come from the CSS
-variable, however, while I can pass text using ::after, I can't seem to find a
-way to pass variables:
+variable, however, while I can pass text using ::after, I couldn't seem to find 
+a way to pass variables:
 `.corporate::after {content: var(--corporate);}` 
 doesn't work.
 
-I am concerned that CSS variables is still an 'experimental technology' so 
-wouldn't use it in a production site, but assume that Udacity reviewers will 
+I was concerned that CSS variables are still an 'experimental technology' so 
+wouldn't use it in a production site, but assumed that Udacity reviewers would 
 have up to date browsers...  Is there a more stable means of passing variables
- in CSS, or a way to prefix this.
+ in CSS, or a way to prefix this?
+Either way, I lost them at the request of: 
+https://jigsaw.w3.org/css-validator/#validate_by_input
  
 ## Prefixing
 CSS is still to be prefixed, is this something we should do with all flex CSS?
