@@ -14,18 +14,19 @@ nav a, button {
 /* Text */
 * {
     font: 100%/1.2 "Open Sans", sans-serif;
-    color: #2d3c49;
+    color: #62a;
 }
 
 h1 {
     font-size: 3em;
     text-transform: uppercase;
+    color: #22a;
     margin: 0;
 }
 
 h2 {
     font-size: 2.25em;
-    color: #7d97ad;
+    color: #2aa;
     margin-bottom: 0.25em;
 }
 
@@ -43,9 +44,8 @@ h4 {
 }
 
 a {
-    color: #2d3c49;
+    color: #22a;
 }
-
 
 /* Header */
 .icon {
@@ -59,7 +59,7 @@ a {
 
 hr {
     border: 0;
-    background: #7d97ad;
+    background: #2aa;
     height: 0.25em;
     margin-bottom: 2em;
     min-width: 190px;
