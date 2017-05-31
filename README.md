@@ -8,7 +8,7 @@ https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 1. Ensure all the files listed under 'Files' below are in the same folder
 (click clone or download in [this](https://github.com/Aqueum/UFS-Portfolio) 
 & follow instructions)
-2. Open JaneDoette2.html in one of the following browsers:
+2. Open Index.html in one of the following browsers:
 - Chrome 21+
 - Sarafi 6.1+
 - Firefox 22+
@@ -25,7 +25,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 Edit the JaneDoette2.html file's h1, h3, h4, a & p tags
 
 # Known issues
-## Fonts
+## Fonts on JaneDoette2
 `strings design-mockup-portfolio.pdf | grep FontName`
 yields
 `<< /Type /FontDescriptor /FontName /OYETYJ+OpenSans /Flags 4 /FontBBox 
@@ -37,7 +37,7 @@ The overlapping font set given when entering images of "Jane Doette" and
 "Featured Work" into WhatTheFont was SmytheSans (thin & regular respectively)
 but these aren't available at reasonable cost for a MOOC...
 
-## Font Sizes
+## Font Sizes on JaneDoette2
 After being taught mobile first, my second attempt employed this methodology.
 As I couldn't find a way to wrap or otherwise shrink urls (`.worklink 
 {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 
@@ -73,21 +73,35 @@ https://jigsaw.w3.org/css-validator/#validate_by_input
 CSS is still to be prefixed, is this something we should do with all flex CSS?
 
 # Files
+## Index.html
+The front page for my Udacity portfolio
+
 ## JaneDoette2.html
 The HTML intended to match (but mobile first) design-mockup-portfolio.pdf
 
 ## css/JaneDoette2.css
 The stylesheet intended to match (but mobile first) design-mockup-portfolio.pdf
 
+## css/Portfolio.css
+The stylesheet for my Udacity portfolio
+
 ## design-mockup-portfolio.pdf
 The original brief, to be emulated (but mobile first) in this exercise.
 
-## img/[various].jpg
-Various files lifted in photoshop from the PDF then cropped and web optimised
+## img/[X].svg 
+where [X] =
+Applify, Bokeh, Sunflower, html-banner, JaneDoetteSite, JaneDoettePDF, Movies
+Various screen-grabbed cropped and web optimised image files
 to give <200kB file sizes (<100kb for thumbnails)
+
+## img/ Aqueum-Banner-5D3A1934-[X]x[Y].jpg, Martin-Currie-5D3A9026-100x100.jpg
+Original photographs copyright Martin Currie, Andeye 2012
 
 ## img/udacity.svg
 Udacity logo taken from https://worldvectorlogo.com/logo/udacity
+
+## img/ Photography.svg, Water.svg, Code.svg
+Vector files I created in Affinity Designer for this project
 
 ## JaneDoette.html & JaneDoette.css
 The original files from my first attempt, I found moving the swatches below the
@@ -98,13 +112,12 @@ started the CSS from scratch in JaneDoette2.css
 
 # Contributing
 This is an assessed project, so I'd probably get in trouble for accepting 
-external input.
-Feel free to fork as long as you're not using this as part of your own 
-coursework.
+external input...
 
 # Code Status
 Can Udacity add a badge here..?
 
 # License
-GNU General Public License v3.0
-(See [LICENSE](https://github.com/Aqueum/UFS-Portfolio/blob/master/LICENSE))
+Images and artwork are subject to copyright, all rights reserved. 
+The code, you're welcome to under GNU v3.0, 
+but unfortunately images cannot be shared.
