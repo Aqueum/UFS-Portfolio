@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/JaneDoette2.css">
+        <title>Jane Doette</title>
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <header class="full-width">
+                <!-- empty div for top corner so swatches align below header-->
+                <div class="sidebar"></div>
+                <div class="header-content bulk">
+                    <img class="logo"
+                         src="img/udacity.svg"
+                         alt="Udacity Logo">
+                    <div class="nameplate">
+                        <h1>Jane Doette</h1>
+                        <h4>Front-End Ninja</h4>
+                    </div>
+                </div>
+            </header>
+            <div class="full-width">
+                <!-- empty div to use same flexbox classes for rule -->
+                <div class="sidebar"></div>
+                <hr class="bulk">
+            </div>
+
+            <section class="middle full-width">
+                <main class="bulk">
+                    <img class="banner" src="img/html-banner.jpg"
+                         alt="html code">
+
+                    <section class="featured">
+                        <h2>Featured Work</h2>
+                        <div class="articles">
+                            <article>
+                                <!-- linked images as text tap target small -->
+                                <a href="https://github.com/udacity/Appify">
+                                    <img class="thumbnail"
+                                         src="img/Appify.jpg"
+                                         alt="App store icon">
+                                </a>
+                                <h3>Appify</h3>
+                                <a class="work-link"
+                                   href="https://github.com/udacity/Appify">
+                                    https://github.com/udacity/Appify</a>
+                            </article>
+                            <article>
+                                <a href="https://github.com/udacity/Sunflower">
+                                    <img class="thumbnail"
+                                         src="img/Sunflower.jpg"
+                                         alt="Sunflower">
+                                </a>
+                                <h3>Sunflower</h3>
+                                <a class="work-link"
+                                   href="https://github.com/udacity/Sunflower">
+                                    https://github.com/udacity/Sunflower</a>
+                            </article>
+                            <article>
+                                <a href="https://github.com/udacity/Bokeh">
+                                    <img class="thumbnail"
+                                         src="img/Bokeh.jpg"
+                                         alt="Bokeh">
+                                </a>
+                                <h3>Bokeh</h3>
+                                <a class="work-link"
+                                   href="https://github.com/udacity/Bokeh">
+                                    https://github.com/udacity/Bokeh</a>
+                            </article>
+                        </div>
+                    </section>
+
+                </main>
+
+                <aside class="sidebar">
+                    <!-- text passed in to <p>'s via CSS ::after statements -->
+                    <div class="swatch">
+                        <div class="square corporate"></div>
+                        <p class="swatch-text text-corporate"></p>
+                    </div>
+                    <div class="swatch">
+                        <div class="square default"></div>
+                        <p class="swatch-text text-default"></p>
+                    </div>
+                    <div class="swatch">
+                        <div class="square highlight"></div>
+                        <p class="swatch-text text-highlight"></p>
+                    </div>
+                </aside>
+
+            </section>
+        </div>
+    </body>
+</html>

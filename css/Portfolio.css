@@ -1,0 +1,195 @@
+/* TODO: find correct font - see README */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+
+/* Text */
+* {
+    font: 100%/1.2 "Open Sans", sans-serif;
+    color: #2d3c49;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.25em;
+    color: #7d97ad;
+    margin-bottom: 0.25em;
+}
+
+h3 {
+    font-size: 1.9em;
+    text-transform: uppercase;
+    margin: 0;
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+a {
+    color: #2d3c49;
+}
+
+
+/* Header */
+.logo {
+    /* set max dimensions so logo can shrink for tiny viewports */
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.nameplate {
+    /* TODO: prefix CSS */
+    flex: 1;
+    text-align: right;
+}
+
+hr {
+    border: 0;
+    background: #7d97ad;
+    height: 0.25em;
+    margin-bottom: 2em;
+    min-width: 190px;
+}
+
+
+/* Main */
+.banner {
+    min-width: 190px;
+}
+
+
+/* Articles */
+article {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.thumbnail {
+    /* set minimum width so text doesn't dominate with tiny viewports */
+    min-width: 190px;
+}
+
+.work-link {
+    /* small size required to avoid image formatting issues - see README */
+    font-size: 0.65em;
+}
+
+
+/* Sidebar */
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.swatch-text {
+    font-size: 1.5em;
+}
+
+.corporate {
+    background: #02b3e4;
+}
+
+.text-corporate::after {
+    content: "#02b3e4";
+}
+
+.default {
+    background: #2d3c49;
+}
+
+.text-default::after {
+    content: "#2d3c49";
+}
+
+.highlight {
+    background: #7d97ad;
+}
+
+.text-highlight::after {
+    content: "#7d97ad";
+}
+
+/* TODO: find a way to pass variables into ::after - see README */
+
+
+/* Breakpoints */
+/* Small viewports */
+@media (min-width: 340px) {
+    .header-content {
+        display: flex;
+    }
+}
+
+@media (min-width: 340px) AND (max-width: 599px) {
+    aside {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Medium viewports */
+@media (min-width: 600px) {
+    .wrapper {
+        margin: 4% 10%;
+        /* set max width so images don't pixelate on large screens */
+        max-width: 1400px;
+    }
+
+    .full-width {
+        display: flex;
+    }
+
+    .bulk {
+        flex: 1;
+        order: 2;
+    }
+
+    .sidebar {
+        width: 100px;
+        padding-right: 4em;
+        order: 1;
+    }
+
+    .swatch-text {
+    text-align: right;
+    }
+}
+
+/* Large viewports */
+@media (min-width: 940px) {
+    .articles {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    article {
+        /* set width under 1/3 and justify in to get space between articles */
+        width: 31.5%;
+    }
+
+    /* TODO: find a way to get URLs to scale down - see README */
+    /* the following doesn't seem to do much... */
+    .work-link {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-width: 10px;
+    }
+}
