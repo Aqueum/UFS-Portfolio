@@ -11,7 +11,7 @@ nav a, button {
 }
 
 * {
-    font-family: "Open Sans", sans-serif;
+    font: 100%/1.2 "Open Sans", sans-serif;
     --default: #2d3c49;
     --highlight: #7d97ad;
     --corporate: #02b3e4;
@@ -65,7 +65,7 @@ a {
 }
 
 hr {
-    border: none;
+    border: 0;
     background-color: var(--highlight);
     height: 0.25em;
     margin-bottom: 2em;
@@ -124,9 +124,7 @@ article {
 
 @media (min-width: 600px) {
     .wrapper {
-        margin-top: 4%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 4% 10% 4%;
         /* set max width so images don't pixelate on large screens */
         max-width: 1400px;
     }
