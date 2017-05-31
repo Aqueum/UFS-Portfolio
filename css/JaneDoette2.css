@@ -58,6 +58,7 @@ a {
 }
 
 .nameplate {
+    /* TODO - prefix CSS */
     flex: 1;
     text-align: right;
 }
