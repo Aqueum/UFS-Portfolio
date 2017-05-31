@@ -1,4 +1,4 @@
-/* TODO - find correct font - see README */
+/* TODO: find correct font - see README */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 img, embed, object, video {
@@ -53,12 +53,13 @@ a {
 }
 
 .logo {
+    /* set max dimensions so logo can shrink for tiny viewports */
     max-width: 100px;
     max-height: 100px;
 }
 
 .nameplate {
-    /* TODO - prefix CSS */
+    /* TODO: prefix CSS */
     flex: 1;
     text-align: right;
 }
@@ -81,6 +82,7 @@ article {
 }
 
 .thumbnail {
+    /* set minimum width so text doesn't dominate with tiny viewports */
     min-width: 190px;
 }
 
@@ -105,7 +107,7 @@ article {
     background-color: var(--highlight);
 }
 
-/* TODO - find a way to pass variables into ::after - see README */
+/* TODO: find a way to pass variables into ::after - see README */
 
 @media (min-width: 340px) {
     .header-content {
@@ -125,6 +127,7 @@ article {
         margin-top: 4%;
         margin-left: 10%;
         margin-right: 10%;
+        /* set max width so images don't pixelate on large screens */
         max-width: 1400px;
     }
 
@@ -155,10 +158,12 @@ article {
     }
 
     article {
+        /* set width under 1/3 and justify in to get space between articles */
         width: 31.5%;
     }
 
-    /* TODO - find a way to get URLs to scale down */
+    /* TODO: find a way to get URLs to scale down - see README */
+    /* the following doesn't seem to work... */
     .worklink {
         white-space: nowrap;
         overflow: hidden;
