@@ -65,6 +65,9 @@ I am concerned that CSS variables is still an 'experimental technology' so
 wouldn't use it in a production site, but assume that Udacity reviewers will 
 have up to date browsers...  Is there a more stable means of passing variables
  in CSS, or a way to prefix this.
+ 
+## Prefixing
+CSS is still to be prefixed, is this something we should do with all flex CSS?
 
 # Files
 ## JaneDoette2.html
