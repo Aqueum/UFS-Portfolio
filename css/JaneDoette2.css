@@ -106,12 +106,24 @@ article {
     background-color: #02b3e4;
 }
 
+.text-corporate::after {
+    content: "#02b3e4";
+}
+
 .default {
     background-color: #2d3c49;
 }
 
+.text-default::after {
+    content: "#2d3c49";
+}
+
 .highlight {
     background-color: #7d97ad;
+}
+
+.text-highlight::after {
+    content: "#7d97ad";
 }
 
 /* TODO: find a way to pass variables into ::after - see README */
