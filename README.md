@@ -1,3 +1,14 @@
+# NOTE TO UDACITY REVIEWER
+I did produce a customised portfolio page for myself, but used multiple pages.
+Udacity said that only one page of HTML can be reviewed, so I have gone with
+the plain reproduction of the PDF as it was technically most challenging - 
+picking colours and fonts and changing images isn't hard, srcset was the only
+interesting feature of the customised version.  If however you need to fail me
+for lack of customisation, please review index.html at [branch master](
+https://github.com/Aqueum/UFS-Portfolio/tree/master) instead.
+
+Thanks.
+
 # UFS-Portfolio
 - Udacity Full Stack - Portfolio
 - [Udacity Full Stack Web Developer Nanodegree](
@@ -8,7 +19,7 @@ https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 1. Ensure all the files listed under 'Files' below are in the same folder
 (click clone or download in [this](https://github.com/Aqueum/UFS-Portfolio) 
 & follow instructions)
-2. Open Index.html in one of the following browsers:
+2. Open JaneDoette2.html in one of the following browsers:
 - Chrome 21+
 - Sarafi 6.1+
 - Firefox 22+
@@ -25,7 +36,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 Edit the JaneDoette2.html file's h1, h3, h4, a & p tags
 
 # Known issues
-## Fonts on JaneDoette2
+## Fonts
 `strings design-mockup-portfolio.pdf | grep FontName`
 yields
 `<< /Type /FontDescriptor /FontName /OYETYJ+OpenSans /Flags 4 /FontBBox 
@@ -37,13 +48,13 @@ The overlapping font set given when entering images of "Jane Doette" and
 "Featured Work" into WhatTheFont was SmytheSans (thin & regular respectively)
 but these aren't available at reasonable cost for a MOOC...
 
-## Font Sizes on JaneDoette2
+## Font Sizes
 After being taught mobile first, my second attempt employed this methodology.
 As I couldn't find a way to wrap or otherwise shrink urls (`.worklink 
 {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 
 10px;}` didn't work), I was forced to select too small a font size in order 
 to stop long URLs from resulting in uneven image sizes.  I feel this was an 
-acceptable compromise given the following mitigation.
+acceptable compromise given the following mitigation:
 
 In order to mitigate the potential small tap target issue, I added links to the
 images.  (I tried adding links to the entire article but this led to 
@@ -66,42 +77,30 @@ I was concerned that CSS variables are still an 'experimental technology' so
 wouldn't use it in a production site, but assumed that Udacity reviewers would 
 have up to date browsers...  Is there a more stable means of passing variables
  in CSS, or a way to prefix this?
+ 
 Either way, I lost them at the request of: 
-https://jigsaw.w3.org/css-validator/#validate_by_input
+https://jigsaw.w3.org/css-validator/#validate_by_input, so was able to pass the
+colour hex values as text from CSS.
  
 ## Prefixing
 CSS is still to be prefixed, is this something we should do with all flex CSS?
 
 # Files
-## Index.html
-The front page for my Udacity portfolio
-
 ## JaneDoette2.html
 The HTML intended to match (but mobile first) design-mockup-portfolio.pdf
 
 ## css/JaneDoette2.css
 The stylesheet intended to match (but mobile first) design-mockup-portfolio.pdf
 
-## css/Portfolio.css
-The stylesheet for my Udacity portfolio
-
 ## design-mockup-portfolio.pdf
 The original brief, to be emulated (but mobile first) in this exercise.
 
-## img/[X].svg 
-where [X] =
-Applify, Bokeh, Sunflower, html-banner, JaneDoetteSite, JaneDoettePDF, Movies
-Various screen-grabbed cropped and web optimised image files
+## img/[various].jpg
+Various files lifted in photoshop from the PDF then cropped and web optimised
 to give <200kB file sizes (<100kb for thumbnails)
-
-## img/ Aqueum-Banner-5D3A1934-[X]x[Y].jpg, Martin-Currie-5D3A9026-100x100.jpg
-Original photographs copyright Martin Currie, Andeye 2012
 
 ## img/udacity.svg
 Udacity logo taken from https://worldvectorlogo.com/logo/udacity
-
-## img/ Photography.svg, Water.svg, Code.svg
-Vector files I created in Affinity Designer for this project
 
 ## JaneDoette.html & JaneDoette.css
 The original files from my first attempt, I found moving the swatches below the
@@ -112,12 +111,13 @@ started the CSS from scratch in JaneDoette2.css
 
 # Contributing
 This is an assessed project, so I'd probably get in trouble for accepting 
-external input...
+external input.
+Feel free to fork this (JaneDoette) branch as long as you're not using this as 
+part of your own coursework.
 
 # Code Status
 Can Udacity add a badge here..?
 
 # License
-Images and artwork are subject to copyright, all rights reserved. 
-The code, you're welcome to under GNU v3.0, 
-but unfortunately images cannot be shared.
+GNU General Public License v3.0 for JaneDoette branch only.
+Master branch contains copyrighted images that cannot be shared.
